@@ -1,0 +1,89 @@
+section {
+  position: relative;
+  display: block;
+}
+.bg-demos {
+  background-image: url('../../assets/image/bg-demos.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.bg-pattern {
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  right: 0px;
+}
+img {
+  vertical-align: middle;
+}
+.bg-pattern img {
+  max-width: 100%;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.display-table-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.justify-content {
+  justify-content: center !important;
+}
+.text-white {
+  color: white;
+}
+.text-center {
+  text-align: center !important;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1024px){
+  .title {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1025px){
+  .title {
+    font-size: 52px;
+  }
+}
+
+@media screen and  (min-width: 768px)
+{
+  .container{
+    max-width: 720px;
+}
+}
+
+.btn-quote {
+  margin-top: 2rem;
+  background-color: rgb(89, 180, 89);
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  border: none;
+  font-weight: 100;
+  align-items: center;
+}
+
+.text-latin {
+  font-style: italic;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px !important;
+}
+
+.text-headline {
+  padding: 1rem;
+}
+
+.card {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 10px 2px -2px gray;
+}

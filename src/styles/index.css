@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.ml-auto {
+  margin-left: auto;
+}
+.ml-1 {
+  margin-left: 1em;
+}
+.ml-1 {
+  margin-right: 1em;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.row > * {
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .row{
+      flex-direction: column;
+  }
+  
+  .col-half {
+    flex: 100%;
+    padding: 1rem;
+  }
+}
+
+.col-2 {
+  flex: 20%;
+  padding: 1rem;
+}
+
+.col-4 {
+  flex: 40%;
+  padding: 1 rem;
+}
+
+.col-half {
+  flex: 50%;
+  padding: 1rem;
+}

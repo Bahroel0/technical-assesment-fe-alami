@@ -1,0 +1,33 @@
+#portfolio {
+  margin-top: 3rem;
+}
+.headline {
+  background-color: #404040;
+  text-align: center;
+  color: white;
+  top:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  background-color: #302729;
+}
+.wrapper-service {
+  padding: 2rem;
+}
+h2.text-subtitle {
+  color: #EB757B;
+}
+.text-caption {
+  color: #765D63;
+}
+.btn-footer {
+  background: transparent;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  color: white;
+  border: 1px solid #EB757B;
+}
